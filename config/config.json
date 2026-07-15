@@ -1,0 +1,12 @@
+{
+  "_comment": "LoadForge v3 config — edit backends here; LB hot-reloads on file change",
+  "listen_ip": "127.0.0.1",
+  "listen_port": 8080,
+  "algorithm": "round_robin",
+  "backend_bin": "bin/backend",
+  "backends": [
+    { "id": 1, "ip": "127.0.0.1", "port": 9001 },
+    { "id": 2, "ip": "127.0.0.1", "port": 9002 },
+    { "id": 3, "ip": "127.0.0.1", "port": 9003 }
+  ]
+}

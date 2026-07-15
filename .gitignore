@@ -1,0 +1,18 @@
+# Build output
+bin/
+*.o
+*.a
+*.so
+*.out
+
+# Runtime logs / sockets (written to /tmp at runtime, but ignore any local copies)
+*.log
+lf_stats.log
+*.sock
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
